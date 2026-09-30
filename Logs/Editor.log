@@ -1,0 +1,376 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 24892)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 25332)
+VBCSCompiler prewarm took 23.51 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20070705" at "2026-09-30T14:03:02.2341357Z"
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32489 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-30T14:03:02Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23644, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              1f775253a6d34085a587fef5a28ea12a
+  Correlation Id:          e3de1c0e01190f523444b690e95d5069
+  External correlation Id: 4139531982998412750
+  Machine Id:              WRdLmTOokGzvkuNd56XeCD7vrAA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-20070705" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20070705-notifications" at "2026-09-30T14:03:02.3412193Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token g3BXcpakcg...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5774125461670-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.14s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-projectpath
+C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-20070705
+-hubSessionId
+41bdb7c3-2ced-4070-84ef-b99c9abcdd19
+-accessToken
+g3BXcpakcgE_9Q_r3_bG8mvYOzDUtK6s17csPSWdoNA005f
+Successfully changed project path to: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story
+C:/Users/20070705/Desktop/Bianca/Local repositries/Quit-The-Story
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [14620]  Target information:
+
+Player connection [14620]  * "[IP] 10.43.22.186 [Port] 55504 [Flags] 2 [Guid] 3068523934 [EditorId] 3068523934 [Version] 1048832 [Id] WindowsEditor(7,SNE-A807-23-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14620] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14620] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-10308" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: e235164d5a0438f6bb3b197ac8261883
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/20070705/Desktop/Bianca/Local repositries/Quit-The-StoryUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/20070705/Desktop/Bianca/Local repositries/Quit-The-Story/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060
+[D3D12 Device Filter] Driver Version: 32.0.16.1060
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 12115 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:          NVIDIA
+    VRAM:            12115 MB
+    App VRAM Budget: 11347 MB
+    Driver:          32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003752 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.113 seconds
+Domain Reload Profiling: 1957ms
+	BeginReloadAssembly (244ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (232ms)
+		TypeCache.Refresh (296ms)
+			TypeCache.ScanAssembly (275ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1117ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (476ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 42 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.0.38 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+  Built-in packages:
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.07 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/20070705/Desktop/Bianca/Local repositries/Quit-The-Story
+ExitCode: 0 Duration: 0s292ms
+[193/200    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.23 seconds), 1 items updated, 200 evaluated
+AssetDatabase: script compilation time: 1.025705s
+Begin MonoManager ReloadAssembly
+Total cache size 119248188
+Total cache size after purge 119248188, took 00:00:00.1667121
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (415ms)
+		DisableScriptedObjects (61ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (336ms)
+		TypeCache.Refresh (15ms)
+			TypeCache.ScanAssembly (9ms)
+		AnalyzeDomain (13ms)
+			BuildScriptInfoCaches (10ms)
+	FinalizeReload (663ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Starting new worker id: 0 with log in C:/Users/20070705/Desktop/Bianca/Local repositries/Quit-The-Story/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=a2ce39c5f5a255249b68fdca65b797d3): Total: 3.075 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=964 ms
+		Asset DB Callback time: managed=34 ms, native=82 ms
+		Scripting: domain reloads=1, domain reload time=945 ms, compile time=1029 ms, other=18 ms
+		Project Asset Count: scripts=169, non-scripts=61
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 92.210ms
+	ApplyChangesToAssetFolders: 0.796ms
+	Scan: 100.157ms
+	Collect global state as custom dependencies: 19.954ms
+	CategorizeScriptCompilationAssets: 6.501ms
+	ProcessAssetsWithTransientArtifactChanges: 9.094ms
+	CategorizeAssets: 1.514ms
+	CompileScripts: 1029.486ms
+	ImportOutOfDateAssets: 678.182ms (663.933ms without children)
+		UnloadImportedAssets: 1.644ms
+		ImportSchedulerStart: 12.556ms
+	PostProcessAllAssets: 34.869ms
+		MonoPostProcessAllAssets: 34.786ms
+			SyncVS.PostprocessSyncProject 13.047ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.842ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.355ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.767ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.263ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.206ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.176ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.082ms
+	UnloadStreamsBegin: 1.876ms
+	Untracked: 1074.683ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 7.316ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Quit-The-Story
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 497 unused Assets / (0.6 MB). Loaded Objects now: 1235.
+Memory consumption went from 241.3 MB to 240.7 MB.
+Total: 5.987400 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.028000 ms MarkObjects: 5.315400 ms  DeleteObjects: 0.298200 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/20070705/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 8.467 seconds
+	Project init time: 				6.854 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.315 seconds
+		Asset Database init time: 		0.425 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			2.083 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	3.076 seconds
+	Scene opening time: 			1.335 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790776990651,"processId":10308,"projectLoad":8.4674701,"projectInit":6.8537566,"templateInit":0.0,"packageManagerInit":0.314796,"assetDatabaseInit":0.4248487,"globalIlluminationInit":0.0054763,"assembliesLoad":2.0828876,"unityExtensionsInit":0.0025641,"assetDatabaseRefresh":3.0756584,"sceneOpening":1.3345286}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790776990651,"processId":10308,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "g3BXcpak"... (expires: 2026-09-30T15:56:21Z)
+Created GICache directory at C:/Users/20070705/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.016s, timestamps: [9.437 - 9.454]
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=b48e6af3ff2f62a4d8ce7403f5ceb407): Total: 0.070 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Starting new worker id: 1 with log in C:/Users/20070705/Desktop/Bianca/Local repositries/Quit-The-Story/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 656f74f6edaa396458412b9e3903d8cd - Path: Packages/com.unity.ide.visualstudio/package.json - Importer: PreviewImporter -> (ImportResultId: '5f3ef32cfef4dcf9fff3f7fe74417117') in 0.0348388 seconds
+[Worker0] Imported GUID: d6a2e6e4803de7b43baacdc355fc144d - Path: Packages/com.unity.test-framework/package.json - Importer: PreviewImporter -> (ImportResultId: '0c1b259c9a8f504369013d4f561b8876') in 0.0012434 seconds
+Worker ready: AssetImportWorkerHW1 1
+[Worker0] Imported GUID: 66c95bb3c74257f41bae2622511dc02d - Path: Packages/com.unity.ide.rider/package.json - Importer: PreviewImporter -> (ImportResultId: '741a26ff7896c646d07da577f6aae9e5') in 0.0011479 seconds
+[Worker0] Imported GUID: 8143d3a8390f2c64685e3bc272bd9e90 - Path: Packages/com.unity.ext.nunit/package.json - Importer: PreviewImporter -> (ImportResultId: '3163bff149a2a0fae57e308e79fd232e') in 0.0007164 seconds
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=2401bb7830768d74c9edcb72e581f0fe): Total: 0.017 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 6431; Successful remaps: 1186
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\20070705\Desktop\Bianca\Local repositries\Quit-The-Story\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/20070705/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-20070705-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-20070705 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000004054, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006D8C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000004054, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006D8C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4936
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790777043259,"processId":10308,"allocatedMemory":11431993,"memoryLabels":[{"Default":175093},{"Permanent":15516},{"NewDelete":71265},{"Thread":4205600},{"Manager":34048},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":849937},{"Material":68},{"GfxDevice":72120},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":131640},{"Input":42840},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"ScriptingNativeRuntime":1210712},{"BaseObject":49200},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":19293},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":436202},{"StaticString":3808},{"Utility":2674946},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":12960},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":1473},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267608},{"EditorUtility":140027},{"VersionControl":8},{"Undo":931},{"AssetDatabase":413485},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36954},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":266},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12808},{"AssetReference":32},{"IPCStream":32}]}
